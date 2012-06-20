@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="jars/aws-java-sdk-1.2.15.jar"/>
+	<classpathentry kind="lib" path="jars/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="jars/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="jars/commons-io-1.4.jar"/>
+	<classpathentry kind="lib" path="jars/commons-lang-2.4.jar"/>
+	<classpathentry kind="lib" path="jars/forms-1.0.6.jar"/>
+	<classpathentry kind="lib" path="jars/httpclient-4.1.1.jar"/>
+	<classpathentry kind="lib" path="jars/httpcore-4.1.jar"/>
+	<classpathentry kind="lib" path="jars/jcl-over-slf4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="jars/joda-time-1.5.2.jar"/>
+	<classpathentry kind="lib" path="jars/looks-2.0.1.jar"/>
+	<classpathentry kind="lib" path="jars/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="jars/slf4j-simple-1.6.1.jar"/>
+	<classpathentry kind="lib" path="/homes/gws/csgordon/research/guitypes/checker/dist/lib/guitypes-20120509.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
