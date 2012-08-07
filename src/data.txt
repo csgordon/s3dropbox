@@ -1,0 +1,10 @@
+javac -J-Xbootclasspath/p:/homes/gws/csgordon/research/guitypes/checker/binary/jsr308-all.jar -Xmaxerrs 999 -cp /homes/gws/csgordon/research/guitypes/checker/dist/lib/guitypes-20120807.jar:/homes/gws/csgordon/research/experiments/S3dropbox/jars/aws-java-sdk-1.2.15.jar:/homes/gws/csgordon/research/experiments/S3dropbox/jars/commons-cli-1.2.jar:/homes/gws/csgordon/research/experiments/S3dropbox/jars/commons-io-1.4.jar:/homes/gws/csgordon/research/experiments/S3dropbox/jars/commons-lang-2.4.jar:/homes/gws/csgordon/research/experiments/S3dropbox/jars/forms-1.0.6.jar:/homes/gws/csgordon/research/experiments/S3dropbox/jars/joda-time-1.5.2.jar:/homes/gws/csgordon/research/experiments/S3dropbox/jars/slf4j-api-1.6.1.jar -processor guitypes.checkers.GUIEffectsChecker
+./com/tomczarniecki/s3/gui/DeleteBucketAction.java:67: error: Calling a method with UIEffect effect from a context limited to SafeEffect effects.
+                    deleteError(); // Colin Gordon: directly access GUI, but this is run on a fresh thread!
+                               ^
+./com/tomczarniecki/s3/gui/UploadWorker.java:95: error: Calling a method with UIEffect effect from a context limited to SafeEffect effects.
+            return display.confirmMessage("Oops", String.format(message, file.getName(), bucketName));  // Colin Gordon: This directly accesses the UI (confirmMessage calls a static swing UI method) if the object exists, unless that swing method is thread safe, which the docs suggest not
+                                         ^
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
