@@ -37,7 +37,7 @@ import java.util.List;
 
 import static com.tomczarniecki.s3.Generics.newArrayList;
 import static com.tomczarniecki.s3.Pair.pair;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 public class UploadWorker {
 

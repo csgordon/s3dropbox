@@ -31,7 +31,7 @@ import javax.swing.JTable;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 class DropBoxTableListener implements ListSelectionListener {
 
     private final Controller controller;

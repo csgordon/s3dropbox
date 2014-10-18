@@ -32,7 +32,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.File;
 
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 @UIType public class DownloadWorker {
 
     private final Logger logger = LoggerFactory.getLogger(getClass());

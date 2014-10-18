@@ -30,7 +30,7 @@ package com.tomczarniecki.s3.gui;
 
 import javax.swing.AbstractAction;
 import java.awt.event.ActionEvent;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 @UIType class CreatePublicLinkAction extends AbstractAction {
 

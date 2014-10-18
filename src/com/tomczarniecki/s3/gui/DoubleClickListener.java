@@ -31,7 +31,7 @@ package com.tomczarniecki.s3.gui;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.concurrent.Executor;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 @UIType class DoubleClickListener extends MouseAdapter {
 
     private final Controller controller;

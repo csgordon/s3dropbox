@@ -29,7 +29,7 @@ package com.tomczarniecki.s3.gui;
 
 import java.io.File;
 import java.util.List;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 class FileDropListener implements FileDrop.Listener {
 

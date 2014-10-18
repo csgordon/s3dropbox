@@ -32,7 +32,7 @@ import com.tomczarniecki.s3.Pair;
 import javax.swing.AbstractAction;
 import java.awt.event.ActionEvent;
 import java.util.concurrent.Executor;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 @UIType class CreateBucketAction extends AbstractAction {
 

@@ -43,7 +43,7 @@ import java.awt.event.ActionListener;
 
 import static org.apache.commons.lang.StringUtils.isNotEmpty;
 import static org.apache.commons.lang.StringUtils.trimToEmpty;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 @UIType public class CredentialsDialog extends JDialog {
 
