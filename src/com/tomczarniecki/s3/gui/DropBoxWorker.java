@@ -29,7 +29,7 @@ package com.tomczarniecki.s3.gui;
 
 import javax.swing.SwingUtilities;
 
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 class DropBoxWorker implements Worker {
 
     public void executeInBackground(Runnable command) {

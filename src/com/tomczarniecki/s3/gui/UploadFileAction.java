@@ -33,7 +33,7 @@ import javax.swing.AbstractAction;
 import java.awt.event.ActionEvent;
 import java.io.File;
 
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 @UIType
 public class UploadFileAction extends AbstractAction {
 

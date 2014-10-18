@@ -36,7 +36,7 @@ import java.util.List;
 
 import static com.tomczarniecki.s3.gui.Constants.ALL_FOLDERS;
 import static com.tomczarniecki.s3.gui.Constants.FOLDER_NAME;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 class MenuSwitcher implements ControllerListener {
 

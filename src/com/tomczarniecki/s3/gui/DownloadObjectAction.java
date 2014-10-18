@@ -33,7 +33,7 @@ import org.apache.commons.io.FilenameUtils;
 import javax.swing.AbstractAction;
 import java.awt.event.ActionEvent;
 import java.io.File;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 @UIType
 class DownloadObjectAction extends AbstractAction {

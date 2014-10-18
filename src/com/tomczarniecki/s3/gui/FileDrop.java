@@ -54,7 +54,7 @@ import java.util.List;
 import java.util.TooManyListenersException;
 
 import static com.tomczarniecki.s3.Generics.newArrayList;
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 
 @UIType public class FileDrop {
 

@@ -46,7 +46,7 @@ import static com.tomczarniecki.s3.gui.Constants.FOLDER_NAME;
 import static com.tomczarniecki.s3.gui.Constants.MAIN_TABLE_NAME;
 import static com.tomczarniecki.s3.gui.Constants.MAIN_WINDOW_NAME;
 
-import guitypes.checkers.quals.*;
+import org.checkerframework.checker.guieffect.qual.*;
 @UIType public class DropBox extends JFrame {
 
     private final DownloadWorker downloader;
